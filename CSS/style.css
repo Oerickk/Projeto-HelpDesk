@@ -1,0 +1,80 @@
+/* Estilo para destacar chamados com prioridade Alta */
+@keyframes piscarPrioridade {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .35;
+    }
+}
+
+.prioridade-alta {
+    animation: piscarPrioridade 1s infinite;
+}
+
+/* Estilo geral da página */
+body {
+    background: #f4f6f9;
+    color: #212529;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .12);
+}
+
+/* Cards */
+.card {
+    border-radius: 1rem;
+}
+
+/* Indicadores do Dashboard */
+.indicador {
+    border-left: 5px solid var(--bs-primary) !important;
+}
+
+.indicador-warning {
+    border-left-color: var(--bs-warning) !important;
+}
+
+.indicador-success {
+    border-left-color: var(--bs-success) !important;
+}
+
+.indicador-danger {
+    border-left-color: var(--bs-danger) !important;
+}
+
+.indicador-primary {
+    border-left-color: var(--bs-primary) !important;
+}
+
+/* Tabela de chamados */
+.table thead th {
+    white-space: nowrap;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.table tbody td {
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+}
+
+/* Formulário */
+.formulario-card {
+    max-width: 850px;
+}
+
+/* Descrição dos chamados */
+.texto-descricao {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+/* Lista de detalhes do chamado */
+.detalhe-lista dt,
+.detalhe-lista dd {
+    margin-bottom: 1rem;
+}

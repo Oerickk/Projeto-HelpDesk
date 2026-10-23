@@ -1,7 +1,5 @@
-# Aula 02 — final
+# Comentarios sobre este projeto
 
-O front-end funciona como SPA.
+Fiz as alterações e adições conforme os dias foram se passando desde o dia 14/10
 
-Ainda não existe servidor.
-
-Os dados ficam em memória e desaparecem ao atualizar a página.
+Não criei branch e nem fiz varios commits pois estava tudo salvo em meu computador.
